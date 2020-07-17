@@ -254,7 +254,7 @@
     display: inline;
   }
 
-  .calculator_link {
+  li.calculator_link {
     display: none;
   }
 
@@ -587,15 +587,15 @@
       .header__sub_list li{
           padding-left: 15px;
           margin:0 0 0 0;
-        border-top:none;
+          border-top:none;
           border-radius: 0px;
           background-color: darkorange;
           font-weight: 400;
           font-size: 15px;
       }
-      .header__sub_list li:last-child{
-        /*padding-bottom: 0px; */
-      }
+      li.calculator_link {
+        display: block;
+      }  
       li.phone {
         display: block;
       }
@@ -613,9 +613,7 @@
         margin: 0 45px 0 0;
       }
        
-      .calculator_link {
-        display: block;
-      }  
+      
 
       
 

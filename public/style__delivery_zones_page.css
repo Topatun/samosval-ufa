@@ -381,7 +381,7 @@
   .page__title h1{
     font-family: "Montserrat",sans-serif;
     
-    background: linear-gradient(25deg, #0B2349 10%, #0D61BC 85%, #8AA9D6);
+    background: linear-gradient(25deg, #0B2349 10%, #0D61BC 85%, #8AA9D6) !important;
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
     color: #0B2349;
